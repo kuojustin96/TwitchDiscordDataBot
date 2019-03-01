@@ -33,7 +33,7 @@ namespace TwitchChatDataBot
             commands = new CommandService();
 
             services = new ServiceCollection().AddSingleton(client).AddSingleton(commands).BuildServiceProvider();
-            string botTOKEN = "NTIzNzUwNDk2MzYwNDY0Mzkz.DveERQ.0Lq2r3TD0jz9SQJ8IJeksCaFkpg";
+            string botTOKEN = "bot token";
 
             //event subscription
             client.Log += OnLog;
